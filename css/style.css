@@ -1,0 +1,166 @@
+:root {
+  --bgcolor: #8a6ef8;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Yekan";
+}
+body {
+  direction: rtl;
+}
+.title {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+.spanboto {
+  color: var(--bgcolor);
+}
+.body-card {
+  display: grid;
+  grid-template-columns: repeat(4, 235px);
+  justify-content: center;
+  padding: 1rem;
+}
+.cards {
+  margin-top: 1rem;
+  width: 215px;
+  height: 232px;
+  margin-right: 1rem;
+  border: 1px solid rgba(228, 164, 255, 0.16);
+  box-shadow: 0 0 22px 10px rgba(228, 164, 255, 0.16);
+  border-radius: 10px;
+}
+
+.cards h3 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cards p {
+  font-size: 13px;
+  font-weight: 400;
+  align-items: justified;
+}
+
+.neon-agrdune {
+  padding-left: 1rem;
+  width: 915px;
+  height: 100%;
+  background-color: var(--bgcolor);
+  margin-left: 1rem;
+  border-radius: 25px;
+  margin: 1rem auto;
+}
+.body-neun-agrdune {
+  padding: 2rem;
+  margin: 0;
+}
+.body-neun-agrdune h2 {
+  color: #fff;
+  display: inline-block;
+  margin-right: 2.5rem;
+  margin-top: -4px;
+
+  text-decoration: solid;
+  font-size: 1.5rem;
+}
+
+.body-neun-agrdune img {
+  position: absolute;
+  display: flexbox;
+  text-align: justify;
+  font-size: 0.5rem;
+}
+ol {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+.js-git-react-next {
+  position: relative;
+  margin-top: 1rem;
+  width: 814px;
+  height: 100%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 25px;
+  display: grid;
+}
+.js-git-react-next summary {
+  text-decoration: none;
+  margin-right: -1rem;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+.js-git-react-next img {
+  position: absolute;
+  margin-right: 95%;
+  margin-top: 2rem;
+}
+@media (max-width: 950px) {
+}
+
+@media (max-width: 767px) {
+  .title {
+    margin: 2rem 0;
+    font-size: 20px;
+  }
+  .body-card {
+    width: 395px;
+    margin: 0px auto;
+    padding: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 180px);
+    justify-content: center;
+    padding: 1rem;
+  }
+  .cards {
+    margin-top: 1rem;
+    width: 161px;
+    height: 173px;
+    margin-right: 1rem;
+    border: 1px solid rgba(228, 164, 255, 0.16);
+    box-shadow: 0 0 22px 10px rgba(228, 164, 255, 0.16);
+    border-radius: 10px;
+  }
+
+  .cards h4 {
+    font-size: 13px;
+    font-weight: 700;
+    padding-right: 10px;
+  }
+
+  .cards p {
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 15.5px;
+    padding-right: 5px;
+  }
+  .neon-agrdune {
+    padding-left: 1rem;
+    width: 395px;
+    height: 100%;
+    margin: 1rem auto;
+  }
+  .body-neun-agrdune h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .js-git-react-next {
+    width: 315px;
+    margin-right: -1rem;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .js-git-react-next img,
+  .html-css img {
+    margin-right: 90%;
+    margin-top: 2rem;
+  }
+}
