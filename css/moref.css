@@ -1,0 +1,10 @@
+.moref {
+  width: 1050px;
+  height: 300px;
+}
+.title-moref {
+  font-weight: 700;
+  align-items: start;
+  font-size: 28px;
+  margin: 3rem 0 1rem 0;
+}

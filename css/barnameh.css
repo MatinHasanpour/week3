@@ -1,0 +1,111 @@
+/*برنامه کلی بوت کمپ */
+.barnameh {
+  width: 1050px;
+  display: grid;
+  position: relative;
+  margin-top: 4rem;
+}
+.title-barnameh {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  width: 1050px;
+}
+.title-barnameh span {
+  color: #8a6ef8;
+}
+.barnameh .img-khat {
+  text-align: center;
+  justify-content: center;
+  margin-right: 200px;
+  margin-top: 70px;
+}
+.barnd-language {
+  display: flex;
+  flex-direction: row;
+}
+.language {
+  width: 150px;
+}
+.language img {
+  justify-content: center;
+  align-items: center;
+}
+.language p {
+  font-size: 12px;
+  font-weight: 300;
+  align-items: center;
+  color: #282828e5;
+}
+/* درس ها */
+.html-class {
+  margin-right: 120px;
+}
+.html-class h5 {
+  color: #e26715;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  margin-right: 40px;
+}
+.html-img {
+  margin: -30px 35px 8px;
+}
+
+.js-class {
+  margin-right: 15px;
+  margin-top: -80px;
+}
+.js-class h5 {
+  color: #e7c407;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  margin-right: 40px;
+}
+.js-img {
+  margin: -30px 35px 8px;
+}
+
+.git-class {
+  margin-right: 20px;
+}
+.git-class h5 {
+  color: #e23c16;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  margin-right: 40px;
+}
+.git-img {
+  margin: -40px 40px 8px;
+}
+
+.react-class {
+  margin-right: 20px;
+  margin-top: -80px;
+}
+.react-class h5 {
+  color: #167cce;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  margin-right: 55px;
+}
+.react-img {
+  margin: -30px 40px 8px;
+}
+
+.next-class {
+  margin-right: 20px;
+}
+.next-class h5 {
+  color: #282828;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  margin-right: 50px;
+}
+.next-img {
+  margin: -40px 35px 8px;
+}
